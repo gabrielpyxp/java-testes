@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+
+        /*double FATOR = 5.0/9.0;
+        double ajuste = 32;
+
+        double fahrenheit = 86;
+        double celsius = (fahrenheit -ajuste) * FATOR;
+        System.out.println(celsius);*/
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Insira a temperatura da sua cidade em fareheit ;");
+
+        int temperatura = sc.nextInt();
+
+        double fator = 5.0/9.0;
+        int ajuste = 32;
+
+
+        double temp = (temperatura - ajuste ) *fator;
+
+
+        System.out.println("Sua temperatura em celsius é:"+temp);
+
+
+    }
+
+    }
