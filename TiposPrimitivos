@@ -1,0 +1,45 @@
+package atividades;
+
+public class TiposPrimitivos {
+    public static void main(String[] args) {
+
+        //Tipos numéricos inteiros
+        byte anosdeEmpresa = 23;
+        short numeroVoos = 542;
+        int id = 12321234;
+        long pontosAcumulados = 3234435254L;
+
+        //Tipos numéricos reais flutuantes
+        float salario = 11234546F;
+        double vendasAcumuladas = 5_123_212_123.54;
+
+        //Tipo booleano
+        boolean estaDeFerias = false; // true
+
+        //Tipo caractere
+        char status = 'A' ; // ativo
+
+        //Dias de empresa
+        System.out.println(anosdeEmpresa * 365);
+
+        //Numéro de Viagens
+        System.out.println(numeroVoos / 2);
+
+        //Pontos por real
+        System.out.println(pontosAcumulados /  vendasAcumuladas);
+
+        System.out.println( id + "Ganha -->"+ salario);
+        System.out.println("Férias?" + estaDeFerias);
+        System.out.println("Status?" + status);
+        
+
+
+
+
+
+
+
+    }
+
+
+}
