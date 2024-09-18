@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class teste {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String nome;
+        int idade;
+
+        System.out.println("Digite o seu nome :");
+        String n = sc.nextLine();
+
+        System.out.println("Digite a sua idade :");
+        int id = sc.nextInt();
+
+        System.out.println("Digite o seu salario :");
+
+        double salario = sc.nextDouble();
+
+        if(salario >= 1500){
+            System.out.println("RICO MILIONARIO");
+
+        } else {
+            System.out.println("Pobre lascado. ;-; ");
+
+        }
+
+        System.out.println("tmj e nois. seu nome horrivel é :"+n);
+        System.out.println("Sua idade é :"+id);
+
+        sc.close();
+    }
+}
