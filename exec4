@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class SomaVariaveis {
+    public static void main(String[] args) {
+
+        //criar um obijeto Scanner que recebe a entrada do usuÃ¡rio lÃ¡ else
+        Scanner scanner = new Scanner(System.in);
+
+        //Inserir a primeira Variavel
+        System.out.println("Digite o primeiro Número:");
+        int n1 = scanner.nextInt();
+
+        //Solicita a segunda VariÃ¡vel
+        System.out.println("Digite o Segundo Número:");
+        int n2 = scanner.nextInt();
+
+        //Realizar a soma das variÃ¡veis
+        int soma = n1 + n2;
+        System.out.println("A soma dos Número :"+soma);
+        if (soma % 2 == 0) {
+            System.out.println("Número é par:"+soma);
+        }
+        else{
+            System.out.println("Número é impar:"+soma);
+        }
+    }
+}
