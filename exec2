@@ -1,0 +1,37 @@
+package colaborador;
+
+import java.util.Scanner;
+
+
+public class Colaborador {
+    public static void main(String[] args) {
+        // Criar um sistema de Gestão de funcionários
+        // que permita cadastrar e visualizar funcionários
+        //(Nome,salário e carg0
+
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite seu Nome: ");
+        String nome1 = sc.nextLine();
+
+        System.out.println("Digite seu Cargo: ");
+        String cargo1 = sc.nextLine();
+
+        System.out.println("Digite seu Salario: ");
+        double salario1 = sc.nextDouble();
+
+        System.out.println("|________Menu_______|");
+        System.out.println("|Funcionarios Cadastrados: ");
+        System.out.println("|Nome: "+nome1+ "\n|Salario: "+salario1+"\n|Cargo: "+cargo1);
+        System.out.println("|________End_________|");
+
+
+
+
+
+
+
+
+
+    }
+}
